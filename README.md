@@ -2,8 +2,6 @@
 
 A responsive admin dashboard for a shopping application built with React, Syncfusion components, and Tailwind CSS. Use this dashboard to visualize and manage orders, employees, products, and customers with interactive charts and data tables.
 
-![Dashboard preview 1](./shopping/Capture d'écran 2025-04-29 113233.png)
-![Dashboard preview 2](./shopping/Capture d'écran 2025-04-29 113246.png)
 
 Skills: React.js · Syncfusion React UI Components · Tailwind CSS
 
@@ -27,6 +25,8 @@ Skills: React.js · Syncfusion React UI Components · Tailwind CSS
 ## Screenshots
 
 <div align="center">
+  <img src="./shopping/Capture d'écran 2025-04-29 113233.png" width="360" alt="Dashboard preview 1" />
+  <img src="./shopping/Capture d'écran 2025-04-29 113346.png" width="360" alt="Dashboard preview 2" />
   <img src="./shopping/Capture d'écran 2025-04-29 113333.png" width="360" alt="Dashboard preview 3" />
   <img src="./shopping/Capture d'écran 2025-04-29 113350.png" width="360" alt="Dashboard preview 4" />
   <img src="./shopping/Capture d'écran 2025-04-29 113412.png" width="360" alt="Dashboard preview 5" />
