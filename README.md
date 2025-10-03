@@ -26,7 +26,7 @@ Skills: React.js · Syncfusion React UI Components · Tailwind CSS
 
 <div align="center">
   <img src="./shopping/Capture d'écran 2025-04-29 113233.png" width="360" alt="Dashboard preview 1" />
-  <img src="./shopping/Capture d'écran 2025-04-29 113346.png" width="360" alt="Dashboard preview 2" />
+  <img src="./shopping/Capture d'écran 2025-04-29 113246.png" width="360" alt="Dashboard preview 2" />
   <img src="./shopping/Capture d'écran 2025-04-29 113333.png" width="360" alt="Dashboard preview 3" />
   <img src="./shopping/Capture d'écran 2025-04-29 113350.png" width="360" alt="Dashboard preview 4" />
   <img src="./shopping/Capture d'écran 2025-04-29 113412.png" width="360" alt="Dashboard preview 5" />
