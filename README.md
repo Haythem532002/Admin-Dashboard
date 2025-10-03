@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Shopping App Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive admin dashboard for a shopping application built with React, Syncfusion components, and Tailwind CSS. Use this dashboard to visualize and manage orders, employees, products, and customers with interactive charts and data tables.
 
-## Available Scripts
+![Dashboard preview 1](./shopping/Capture d'écran 2025-04-29 113233.png)
+![Dashboard preview 2](./shopping/Capture d'écran 2025-04-29 113246.png)
 
-In the project directory, you can run:
+Skills: React.js · Syncfusion React UI Components · Tailwind CSS
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Orders management and summaries
+- Employee performance overview
+- Customer list and details
+- Interactive charts (line, area, stacked, sparkline)
+- Responsive layout with sidebar and top navigation
+- Theme settings and user profile panel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- React 17
+- Syncfusion React components (Charts, Grids, Kanban, Calendars)
+- Tailwind CSS
+- React Router
+- react-icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+<div align="center">
+  <img src="./shopping/Capture d'écran 2025-04-29 113333.png" width="360" alt="Dashboard preview 3" />
+  <img src="./shopping/Capture d'écran 2025-04-29 113350.png" width="360" alt="Dashboard preview 4" />
+  <img src="./shopping/Capture d'écran 2025-04-29 113412.png" width="360" alt="Dashboard preview 5" />
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Prerequisites: Node.js (>= 14) and npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Install dependencies
 
-### `npm run eject`
+```powershell
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Start the development server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```powershell
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app will open at http://localhost:3000 by default.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+Key folders and files:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `src/` - React source code
+  - `components/` - UI components (Sidebar, Navbar, Charts, etc.)
+  - `pages/` - Dashboard pages (Ecommerce, Orders, Customers...)
+  - `data/` - images and sample data used by the app
+- `shopping/` - project screenshots used in this README
+- `package.json` - project scripts and dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Scripts
 
-### Code Splitting
+- `npm start` - start development server (react-scripts start)
+- `npm run build` - build production bundle
+- `npm test` - run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+This project is a frontend template. To connect real data or APIs:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Replace the sample data files in `src/data` with your API calls or data adapters.
+2. Swap mock handlers with your REST or GraphQL endpoints in the components that fetch data.
+3. Configure authentication and role-based access as needed.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome. Suggested workflow:
 
-### Advanced Configuration
+1. Fork the repo
+2. Create a feature branch
+3. Make changes and add tests
+4. Open a pull request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is provided under the MIT License.
